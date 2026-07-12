@@ -1,7 +1,8 @@
 
-
 .timetable-wrap{overflow-x:auto;margin:.8rem 0}
-.timetable{width:100%;border-collapse:collapse;min-width:620px}
-.timetable th,.timetable td{padding:.7rem;border:1px solid #d8e4e0;text-align:left}
+.timetable{width:100%;border-collapse:collapse;min-width:760px}
+.timetable th,.timetable td{padding:.7rem;border:1px solid #d8e4e0;text-align:left;vertical-align:middle}
 .timetable th{background:var(--blue);color:#fff}
-.timetable tbody tr:nth-child(even){background:#f1f6f4}
+.timetable tbody tr:nth-child(even):not(.recommended){background:#f1f6f4}
+.timetable tr.recommended{background:#dff3df}
+.timetable tr.recommended td{border-color:#9fc89f}
