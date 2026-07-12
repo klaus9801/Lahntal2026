@@ -1,16 +1,29 @@
-WEBSITE-UPDATE VERSION 1.2
+LAHNTAL2026 – WEBSITE VERSION 1.2a
 
-Im GitHub-Repository Lahntal2026 diese Dateien ersetzen:
-- index.html
-- styles.css
-- sw.js
+Diese Version enthält:
+- das überarbeitete Website-Layout
+- die aktualisierte Startseite
+- direkte Hotel- und Service-Links
+- die NEUE Tourmappe auf Basis deiner zuletzt hochgeladenen PDF
+- eine neue Cache-Version, damit nicht mehr die alte PDF angezeigt wird
 
-Danach Commit changes.
-Nach etwa 1–2 Minuten die Website neu laden, ggf. mit Cmd + Option + R.
+HOCHLADEN IN GITHUB
 
-Neu:
-- moderneres, ruhigeres Layout
-- direkte Hotel-Websites und separate Navigation
-- neuer Bereich „Service und Einkehr“
-- verbesserte mobile Darstellung
-- Version 1.2 im Footer
+1. Repository „Lahntal2026“ öffnen.
+2. Add file → Upload files.
+3. Diese vier Dateien hochladen:
+   - index.html
+   - styles.css
+   - sw.js
+   - Lahntal_Tourmappe_2026.pdf
+4. Commit changes anklicken.
+5. 1–2 Minuten warten.
+6. Website neu laden.
+7. Falls noch eine alte Fassung erscheint:
+   - Mac: Cmd + Option + R
+   - iPhone/iPad: Safari-Tab schließen und neu öffnen
+   - notfalls Website-Daten für github.io löschen
+
+WICHTIG
+Die PDF-Datei muss im Repository exakt „Lahntal_Tourmappe_2026.pdf“ heißen,
+damit der Tourmappe-Button der Website sie korrekt öffnet.
