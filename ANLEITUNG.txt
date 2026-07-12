@@ -1,0 +1,9 @@
+Diese PDF wurde direkt aus deiner hochgeladenen Pages-Datei erzeugt.
+
+So aktualisierst du die Website:
+1. Im GitHub-Repository Lahntal2026 auf Add file → Upload files klicken.
+2. Die Datei Lahntal_Tourmappe_2026.pdf hochladen.
+3. Commit changes anklicken.
+4. Etwa 1–2 Minuten warten.
+5. Auf der Website den Button Tourmappe öffnen.
+6. Falls noch die alte PDF erscheint: Cmd + Option + R oder den Browsercache leeren.
