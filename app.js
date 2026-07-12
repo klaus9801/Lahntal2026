@@ -1,4 +1,3 @@
-
 document.querySelectorAll('[data-copy]').forEach(btn=>{
   btn.addEventListener('click', async ()=>{
     const text=btn.getAttribute('data-copy');
@@ -14,5 +13,12 @@ document.querySelectorAll('[data-copy]').forEach(btn=>{
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(()=>{});
+  window.addEventListener('load', async () => {
+    try {
+      const registration = await navigator.serviceWorker.register('./sw.js');
+      await registration.update();
+    } catch (e) {
+      console.log('Service Worker konnte nicht aktualisiert werden.', e);
+    }
+  });
 }
