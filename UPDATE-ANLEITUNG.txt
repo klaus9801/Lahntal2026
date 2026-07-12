@@ -1,0 +1,16 @@
+WEBSITE-UPDATE VERSION 1.2
+
+Im GitHub-Repository Lahntal2026 diese Dateien ersetzen:
+- index.html
+- styles.css
+- sw.js
+
+Danach Commit changes.
+Nach etwa 1–2 Minuten die Website neu laden, ggf. mit Cmd + Option + R.
+
+Neu:
+- moderneres, ruhigeres Layout
+- direkte Hotel-Websites und separate Navigation
+- neuer Bereich „Service und Einkehr“
+- verbesserte mobile Darstellung
+- Version 1.2 im Footer
